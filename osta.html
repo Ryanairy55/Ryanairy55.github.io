@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Todella hyvä paras nettisivu Boeingista 737</title>
+        <link rel="icon" href="img/plane-solid.svg" />
+        <link type="stylesheet" href="css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm fixed-top">
+        <a href="index.html" class="d-flex mb-md-0 me-md-auto text-dark text-decoration-none"><h5 class="my-0 mr-md-auto font-weight-normal">Boeing 737</h5></a>
+            <nav>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Etusivu</a></li>
+                    <li class="nav-item"><a href="osta.html" class="nav-link active">Osta</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div style="margin-top: 100px;" class="container">
+            <noscript><p>Noscript testi</p></noscript>
+            <div id="osta">
+                <h1>Osta uusi Boeing 737 itsellesi! (real)</h1>
+                <p>Katso tuotteen arvostelu:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Bs10y4Uagc0?si=4oa7Vx9oQ28hQuBp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <form method="GET" action="form.html">
+                    <keygen name="rsaPublicKey" keytype="RSA" />
+                    <div class="input-group" class="input-label">
+                        <label for="company">yhtiön nimi: </label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="company" class="form-control" />
+                    </div>
+            
+                    <div class="row">
+                        <div class="col">
+                            <div class="input-group">
+                                <label for="email" class="input-label">sähköposti: </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" name="email" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input-group" class="input-label">
+                                <label for="phone">phone: </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="number" name="phone" placeholder="käytä oikealla olevia painikkeita" onkeydown="return false" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="input-group" class="input-label">
+                        <label for="komentti">toiveet:</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="komentti" name="komentti" rows="5" cols="33" class="form-control"></textarea>
+                    </div>
+            
+                    <div class="input-group" class="input-label">
+                        <label for="kortti">kortin numero:</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="number" name="kortti" class="form-control" placeholder="0123 4567 8901 2345" />
+                    </div>
+            
+                    <div class="row">
+                        <div class="col">
+                            <div class="input-group" class="input-label">
+                                <label for="nimi">kortinhaltijan nimi:</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="numero" name="nimi" class="form-control" placeholder="ETUNIMI SUKUNIMI" />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input-group" class="input-label">
+                                <label for="pvm">vanhentumis päivämäärä:</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="numero" name="pvm" class="form-control" placeholder="01/26" />
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="input-group" class="input-label">
+                        <label for="cvv">CVV:</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="cvv" class="form-control" placeholder="123" />
+                    </div>
+            
+                    <div class="input-group" class="input-label">
+                        <label for="koodi">vahvistuskoodi (se tulee puhelinnumeroon):</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="koodi" class="form-control" />
+                    </div>
+            
+                    <div class="input-group" class="input-label">
+                        <label for="osoite">toimitusosoite:</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="osoite" class="form-control" list="test-list" />
+                        <datalist id="test-list">
+                            <option value="Chocolate"></option>
+                            <option value="Coconut"></option>
+                            <option value="Mint"></option>
+                            <option value="Strawberry"></option>
+                            <option value="Vanilla"></option>
+                        </datalist>
+                    </div>
+            
+                    <div class="input-group" class="input-label">
+                        <label for="postinumero">postinumero ja toimipaikka:</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="postinumero" class="form-control" />
+                    </div>
+            
+                    <fieldset>
+                        <legend>Valitse version</legend>
+                        <input type="radio" id="b737" name="arvo" value="b737" class="form-check-input" />
+                        <label for="b737">B737-700</label>
+                        <input type="radio" id="b738" name="arvo" value="b738" class="form-check-input" />
+                        <label for="b738">B737-800</label>
+                        <input type="radio" id="b739" name="arvo" value="b739" class="form-check-input" />
+                        <label for="b739">B737-900</label>
+                        <input type="radio" id="b739er" name="arvo" value="b739er" class="form-check-input" />
+                        <label for="b739er">B737-900ER</label>
+                        <input type="radio" id="b737m7" name="arvo" value="b737m7" class="form-check-input" />
+                        <label for="b737m7">B737 MAX 7</label>
+                        <input type="radio" id="b737m8" name="arvo" value="b737m8" class="form-check-input" />
+                        <label for="b737m8">B737 MAX 8</label>
+                        <input type="radio" id="b737m9" name="arvo" value="b737m9" class="form-check-input" />
+                        <label for="b737m9">B737 MAX 9</label>
+                    </fieldset>
+            
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <small>Default checkbox</small>
+                        </label>
+                    </div>
+            
+                    <h4>SUMMA:</h4>
+                    <h3><del>&dollar; 22,500,000.00</del> <span style="color:red">&dollar; 5</span></h3><span>1 minuutti jäljellä</span>
+
+                    <table>
+                        <thead>
+                          <tr>
+                            <th style="border: 1px solid black;">Tuote</th>
+                            <th style="border: 1px solid black;">Hinta</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td style="border: 1px solid black;">Tuote</td>
+                            <td style="border: 1px solid black;">&dollar; 4</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">Kuljetus</td>
+                            <td style="border: 1px solid black;">0</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">Vero</td>
+                            <td style="border: 1px solid black;">&dollar; 1</td>
+                          </tr>
+                        </tbody>
+                        <tfoot>
+                          <tr>
+                            <td style="border: 1px solid black;">SUMMA</td>
+                            <td style="border: 1px solid black;">&dollar; 5</td>
+                          </tr>
+                        </tfoot>
+                      </table>
+            
+                    <div class="input-group">
+                        <input type="submit" value="Ostan!" class="form-control btn btn-success" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="fixed-bottom">
+            <a href="#" class="float-end"><svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"/></svg></a>
+        </div>
+        <footer>
+            <div class="container mt-3" style="margin-bottom: 4em;">
+                <span>&copy; Nikolai Zakharov 2023</span>
+                <a href="https://google.com" target="_blank">tämä on linkki googleen uuteen välilehteen</a>
+                <address>
+                    Email me: <a href="mailto:botspam@example.com">email</a>.<br>
+                    Box 564, Disneyland
+                    USA
+                </address>
+            </div>
+        </footer>
+    </body>
+</html>
